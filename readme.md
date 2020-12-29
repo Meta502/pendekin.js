@@ -1,4 +1,4 @@
-## Pendekin.js - by Adrian Ardizza
+# Pendekin.js - by Adrian Ardizza
 ### A Node.js implementation of the Metrics UI Software Engineering Path Assignment
 
 ---
