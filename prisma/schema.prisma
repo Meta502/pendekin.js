@@ -1,0 +1,13 @@
+datasource db {
+  provider = "sqlite"
+  url      = "file:./pendekin.db"
+}
+generator client {
+  provider = "prisma-client-js"
+}
+model Links {
+  id        Int     @id @default(autoincrement())
+  link      String  @unique
+  fullLink  String
+  count     Int
+}
